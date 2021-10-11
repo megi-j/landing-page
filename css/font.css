@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Mouse Memoirs';
+    src: url('../fonts/MouseMemoirs-Regular.woff2') format('woff2'),
+        url('../fonts/MouseMemoirs-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Concert One';
+    src: url('../fonts/ConcertOne-Regular.woff2') format('woff2'),
+        url('../fonts/ConcertOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'News Cycle';
+    src: url('../fonts/NewsCycle.woff2') format('woff2'),
+        url('../fonts/NewsCycle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
