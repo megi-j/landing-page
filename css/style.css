@@ -141,6 +141,32 @@ section {
     background-color: #735c69;
     color: #fff;
 }
+footer {
+    width: 65%;
+    margin: 10% auto;
+    background-color: #fbf3e9;
+    padding: 20px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+footer nav ul li {
+    margin-right: 5%;
+    font-family: 'News Cycle';
+    font-weight: bold;
+    font-size: 18px;
+}
+footer div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+footer div p {
+    font-family: 'News Cycle';
+    font-size: 15px;
+}
 @media(max-width:800px){
     .navigation {
         display: none;
@@ -170,6 +196,18 @@ section {
     }
     .box {
         margin-top: 20px;
+    }
+    footer nav ul {
+        justify-content: center;
+    }
+    footer div {
+        justify-content: center;
+    }
+    footer nav ul li {
+        font-size: 15px;
+    }
+    footer div p {
+        font-size: 12px;
     }
 
 }
